@@ -12,3 +12,13 @@ img {
   transition: 1s;
   height: max-content;
 }
+
+.carousel-caption {
+  transition: 300ms ease;
+  opacity: 50%;
+  &:hover {
+    text-shadow: black 1px 1px 2px;
+    background-color: gray;
+    opacity:100%;
+  }
+}
