@@ -3,3 +3,12 @@ img {
   -webkit-user-select: none;
   user-select: none;
 }
+
+.carousel-item {
+  height: max-content;
+}
+
+.carousel-inner {
+  transition: 1s;
+  height: max-content;
+}
