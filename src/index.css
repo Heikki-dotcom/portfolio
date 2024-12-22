@@ -1,3 +1,8 @@
+body {
+  background: url(img/background2.jpg) repeat;
+  background-size: cover;
+}
+
 img {
   -moz-user-select: none;
   -webkit-user-select: none;
@@ -18,7 +23,11 @@ img {
   opacity: 50%;
   &:hover {
     text-shadow: black 1px 1px 2px;
-    background-color: gray;
     opacity:100%;
   }
+}
+
+.card-proyecto {
+  width: 50%;
+  
 }

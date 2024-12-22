@@ -3,6 +3,7 @@
 $(document).ready(function () {
 	$(document).on('#btnMenu','click',function (e) {
 		e.preventDefault();
-		console.log("a");
+		const offcanvasElementList = document.querySelectorAll('.offcanvas')
+		const offcanvasList = [...offcanvasElementList].map(offcanvasEl => new bootstrap.Offcanvas(offcanvasEl))
 	});
 });
